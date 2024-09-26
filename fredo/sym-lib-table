@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "fredo")(type "KiCad")(uri "${KIPRJMOD}/library/fredo.kicad_sym")(options "")(descr ""))
+)
