@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ia-gabel-symbols")(type "KiCad")(uri "${KIPRJMOD}/library/ia-gabel-symbols.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,12 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100nF,C_0603_1608Metric,16,"-2,5",0,top
+D1,KT-0603R,D_0603_1608Metric,"15,5","-17,5",-90,top
+J1,A2008WR-S-4P,A2008WR-S-4P,7,-10,90,top
+K1,TCUT1300X01,Vishay-TCUT,34,-10,0,top
+R1,150,R_0805_2012Metric,29,-10,90,top
+R3,13k,R_0603_1608Metric,17,-6,90,top
+R4,13k,R_0603_1608Metric,15,-6,90,top
+R5,120,R_0805_2012Metric,"17,5",-17,-90,top
+R6,13k,R_0603_1608Metric,15,"-13,5",-90,top
+R7,13k,R_0603_1608Metric,17,"-13,5",-90,top
+U1,74LVC2G14GW,SOT-363_SC-70-6,16,-10,180,top
