@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ialightsens")(type "KiCad")(uri "${KIPRJMOD}/library/ialightsens.kicad_sym")(options "")(descr ""))
+)
