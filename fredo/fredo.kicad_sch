@@ -3808,9 +3808,9 @@
 		)
 		(uuid "0ec01e59-e7da-48af-9589-f614dedd8639")
 	)
-	(text "Grove Stecker:\nSeeed: 1125S-SMT-4P (Original, aber nicht bei LCSC zu finden)\nAlternativ: CJT: A2008WV-S-4P (bei LCSC C273125) (BESTÜCKT)\nAlternativ: BOOMELE HY-4P LCSC C161188"
+	(text "Grove Stecker:\nSeeed: 1125S-SMT-4P (Original, aber nicht bei LCSC zu finden)\nAlternativ: CJT: A2008WV-S-4P (bei LCSC C273125) (BESTÜCKT)\nAlternativ: BOOMELE HY-4P LCSC C161188\nAlternativ: DEALON L200HY-4PS C5140480"
 		(exclude_from_sim no)
-		(at 220.98 117.856 0)
+		(at 215.9 119.888 0)
 		(effects
 			(font
 				(size 1.27 1.27)
