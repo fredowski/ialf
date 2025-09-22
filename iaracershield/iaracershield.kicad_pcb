@@ -2128,7 +2128,7 @@
 			(net 6 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "b1865fcf-8466-4ee1-9c1c-070e502a371d")
+			(uuid "452fc9bd-f044-4f2f-bf78-5919a0874c91")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical.wrl"
@@ -2479,7 +2479,7 @@
 		(descr "surface-mounted straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Surface mounted socket strip SMD 2x20 2.54mm double row")
 		(property "Reference" "J1"
-			(at 5.18 -22.73 0)
+			(at 3.96 -26.13 0)
 			(layer "F.SilkS")
 			(uuid "ff16e5d3-b3f0-43bc-aac9-788c544b45fc")
 			(effects
@@ -4702,7 +4702,7 @@
 		(uuid "3e7948fc-233c-487b-837c-429b52e54423")
 		(at 8.5 36.5)
 		(property "Reference" "D20"
-			(at 6.075 4.51084 0)
+			(at -7.6 0.2 90)
 			(layer "F.SilkS")
 			(uuid "aed61ec1-4816-4470-9b44-065e27255249")
 			(effects
@@ -6054,7 +6054,7 @@
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "BAT0"
-			(at 6.5 -3.5 0)
+			(at 6.5 -3.8 0)
 			(layer "F.SilkS")
 			(uuid "ffb6f1dc-642b-4458-871d-bff8223c020c")
 			(effects
@@ -6455,7 +6455,7 @@
 			(net 6 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "4a5fb7f7-3e9c-4591-91ea-5c52cd57c8b7")
+			(uuid "f4fc6345-a249-4314-ba3b-bfaebe64f234")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical.wrl"
@@ -6701,7 +6701,7 @@
 		(descr "surface-mounted straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Surface mounted socket strip SMD 2x20 2.54mm double row")
 		(property "Reference" "J2"
-			(at 5.18 -22.73 0)
+			(at 2.2 -26.33 0)
 			(layer "F.SilkS")
 			(uuid "96604a00-a580-4b31-811e-e1480ee9dd86")
 			(effects
@@ -8924,7 +8924,7 @@
 		(uuid "5ed03eec-f07b-4a65-bc9e-4d0cb7261ab6")
 		(at 8.5 12.5)
 		(property "Reference" "UART1"
-			(at 6.075 4.51084 0)
+			(at -7.5 1.1 90)
 			(layer "F.SilkS")
 			(uuid "98980195-9073-4e58-9169-652e6e1f3c29")
 			(effects
@@ -9968,7 +9968,7 @@
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "MotR1"
-			(at 6.5 -3.5 0)
+			(at 5.3 2 0)
 			(layer "F.SilkS")
 			(uuid "4fa1a020-080d-4ab5-8052-af7aa4a23f79")
 			(effects
@@ -10369,7 +10369,7 @@
 			(net 6 "GND")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "788e0fca-be84-4dd0-b9d9-524741976c68")
+			(uuid "d378e797-2052-401c-96d3-870cb1b81573")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical.wrl"
@@ -11059,7 +11059,7 @@
 		(uuid "967b9f36-9868-4bb1-8775-4b19cbb71bad")
 		(at 8.5 28.5)
 		(property "Reference" "D18"
-			(at 6.075 4.51084 0)
+			(at -7.6 0.5 90)
 			(layer "F.SilkS")
 			(uuid "a4293be7-dc80-44bc-a827-2e6bec35e5d1")
 			(effects
@@ -12117,7 +12117,7 @@
 		(uuid "a151887a-f9bd-4c68-996f-b651602a6323")
 		(at 8.5 4.5)
 		(property "Reference" "UART0"
-			(at 6.075 4.51084 0)
+			(at -7.5 0.6 90)
 			(layer "F.SilkS")
 			(uuid "476bba4e-f760-410a-892c-bafc59e4ed14")
 			(effects
@@ -13949,7 +13949,7 @@
 		(uuid "e9f6d14d-ef29-4736-8954-2d73a2f8e321")
 		(at 8.5 20.5)
 		(property "Reference" "D16"
-			(at 6.075 4.51084 0)
+			(at -7.5 1 90)
 			(layer "F.SilkS")
 			(uuid "2f9decd9-2629-4050-ae74-71ebd8dd9825")
 			(effects
@@ -14613,7 +14613,7 @@
 		)
 	)
 	(gr_text "P11"
-		(at 14.5 40.5 0)
+		(at 16.4 41 90)
 		(layer "F.SilkS")
 		(uuid "28b21053-f1b6-454f-aaa9-22bffa4dfd99")
 		(effects
@@ -14769,7 +14769,7 @@
 		)
 	)
 	(gr_text "GP13"
-		(at 13.5 45.3 0)
+		(at 13.5 45.4 0)
 		(layer "F.SilkS")
 		(uuid "50d0e480-1861-4370-8fa3-b3842d010e6e")
 		(effects
