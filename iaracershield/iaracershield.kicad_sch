@@ -1246,7 +1246,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fredo:Conn_02x20_Odd_Even"
+		(symbol "iaracershield:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1270,7 +1270,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical_SMD"
+			(property "Footprint" "iaracershield:PinSocket_2x20_P2.54mm_Vertical_SMD"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1279,7 +1279,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://file.elecfans.com/web1/M00/E3/09/pIYBAGA9oh2AKdGOAADTdMrhbWg903.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2685092.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2508,7 +2508,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fredo:DRV8835DSSR"
+		(symbol "iaracershield:DRV8835DSSR"
 			(pin_names
 				(offset 0.254)
 			)
@@ -2531,7 +2531,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TI-DRV8835:DSS0012A"
+			(property "Footprint" "iaracershield:DSS0012A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2541,7 +2541,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://file.elecfans.com/web1/M00/BA/8D/o4YBAF6ek_KALlbuABSmp18iYnI036.pdf?filename=DRV8835DSSR.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8835.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2551,7 +2551,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Low voltage motor driver"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2576,14 +2576,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "DRV8835DSSR"
@@ -2890,7 +2882,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_"
+		(symbol "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2918,7 +2910,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+			(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2936,7 +2928,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "seeed connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3143,7 +3135,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fredo:JST-B2B-PH-SM4-TB"
+		(symbol "iaracershield:JST-B2B-PH-SM4-TB"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3169,7 +3161,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "fredo:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+			(property "Footprint" "iaracershield:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3352,7 +3344,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "fredo:PTS815_SJM_250_SMTR_LFS"
+		(symbol "iaracershield:PTS815_SJM_250_SMTR_LFS"
 			(pin_names
 				(offset 0.254)
 			)
@@ -3375,7 +3367,7 @@
 					)
 				)
 			)
-			(property "Footprint" "fredo:SW4_PTS815 SJM 250 SMTR LFS_CNK"
+			(property "Footprint" "iaracershield:SW4_PTS815 SJM 250 SMTR LFS_CNK"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9721,7 +9713,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_")
+		(lib_id "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 255.27 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9731,7 +9723,7 @@
 		(fields_autoplaced yes)
 		(uuid "116548b2-c629-4e13-b76f-5e8de3277825")
 		(property "Reference" "I2C1"
-			(at 251.46 41.275 0)
+			(at 251.46 40.64 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -9740,7 +9732,7 @@
 			)
 		)
 		(property "Value" "Grove"
-			(at 251.46 43.1799 0)
+			(at 251.46 43.18 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -9748,7 +9740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+		(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 			(at 255.27 41.91 0)
 			(effects
 				(font
@@ -9766,7 +9758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "seeed connector"
 			(at 255.27 41.91 0)
 			(effects
 				(font
@@ -9897,7 +9889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:JST-B2B-PH-SM4-TB")
+		(lib_id "iaracershield:JST-B2B-PH-SM4-TB")
 		(at 168.91 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9924,7 +9916,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+		(property "Footprint" "iaracershield:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 168.91 111.76 0)
 			(effects
 				(font
@@ -9997,7 +9989,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:Conn_02x20_Odd_Even")
+		(lib_id "iaracershield:Conn_02x20_Odd_Even")
 		(at 78.74 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10022,7 +10014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fredo:PinSocket_2x20_P2.54mm_Vertical_SMD"
+		(property "Footprint" "iaracershield:PinSocket_2x20_P2.54mm_Vertical_SMD"
 			(at 78.74 45.72 0)
 			(effects
 				(font
@@ -10031,7 +10023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://file.elecfans.com/web1/M00/E3/09/pIYBAGA9oh2AKdGOAADTdMrhbWg903.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2685092.pdf"
 			(at 78.74 45.72 0)
 			(effects
 				(font
@@ -10342,7 +10334,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:PTS815_SJM_250_SMTR_LFS")
+		(lib_id "iaracershield:PTS815_SJM_250_SMTR_LFS")
 		(at 118.11 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10366,7 +10358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fredo:SW4_PTS815 SJM 250 SMTR LFS_CNK"
+		(property "Footprint" "iaracershield:SW4_PTS815 SJM 250 SMTR LFS_CNK"
 			(at 118.11 35.56 0)
 			(effects
 				(font
@@ -10504,7 +10496,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_")
+		(lib_id "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 255.27 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10514,7 +10506,7 @@
 		(fields_autoplaced yes)
 		(uuid "513ddb9b-e699-401a-a469-8151768df33d")
 		(property "Reference" "A0"
-			(at 251.46 59.055 0)
+			(at 251.46 58.42 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -10523,7 +10515,7 @@
 			)
 		)
 		(property "Value" "Grove"
-			(at 251.46 60.9599 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -10531,7 +10523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+		(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 			(at 255.27 59.69 0)
 			(effects
 				(font
@@ -10549,7 +10541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "seeed connector"
 			(at 255.27 59.69 0)
 			(effects
 				(font
@@ -10680,7 +10672,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_")
+		(lib_id "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 255.27 24.13 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10690,7 +10682,7 @@
 		(fields_autoplaced yes)
 		(uuid "6497b906-c481-446e-84fc-698bdc98bc2b")
 		(property "Reference" "I2C0"
-			(at 251.46 23.495 0)
+			(at 251.46 22.86 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -10699,7 +10691,7 @@
 			)
 		)
 		(property "Value" "Grove"
-			(at 251.46 25.3999 0)
+			(at 251.46 25.4 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -10707,7 +10699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+		(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 			(at 255.27 24.13 0)
 			(effects
 				(font
@@ -10725,7 +10717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "seeed connector"
 			(at 255.27 24.13 0)
 			(effects
 				(font
@@ -11248,7 +11240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_")
+		(lib_id "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 255.27 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11258,7 +11250,7 @@
 		(fields_autoplaced yes)
 		(uuid "9194c790-e1ae-4082-94f1-572365a501bb")
 		(property "Reference" "A1"
-			(at 251.46 76.835 0)
+			(at 251.46 76.2 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -11267,7 +11259,7 @@
 			)
 		)
 		(property "Value" "Grove"
-			(at 251.46 78.7399 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -11275,7 +11267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+		(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 			(at 255.27 77.47 0)
 			(effects
 				(font
@@ -11293,7 +11285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "seeed connector"
 			(at 255.27 77.47 0)
 			(effects
 				(font
@@ -11557,7 +11549,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_")
+		(lib_id "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 212.09 24.13 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11567,7 +11559,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1fc624d-6cc8-48b4-bacc-5eaaea0e1042")
 		(property "Reference" "UART0"
-			(at 208.28 23.495 0)
+			(at 208.28 22.86 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -11576,7 +11568,7 @@
 			)
 		)
 		(property "Value" "Grove"
-			(at 208.28 25.3999 0)
+			(at 208.28 25.4 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -11584,7 +11576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+		(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 			(at 212.09 24.13 0)
 			(effects
 				(font
@@ -11602,7 +11594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "seeed connector"
 			(at 212.09 24.13 0)
 			(effects
 				(font
@@ -11744,7 +11736,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_")
+		(lib_id "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 212.09 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11770,7 +11762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+		(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 			(at 212.09 95.25 0)
 			(effects
 				(font
@@ -11788,7 +11780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "seeed connector"
 			(at 212.09 95.25 0)
 			(effects
 				(font
@@ -11852,7 +11844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:Conn_02x20_Odd_Even")
+		(lib_id "iaracershield:Conn_02x20_Odd_Even")
 		(at 50.8 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11877,7 +11869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fredo:PinSocket_2x20_P2.54mm_Vertical_SMD"
+		(property "Footprint" "iaracershield:PinSocket_2x20_P2.54mm_Vertical_SMD"
 			(at 50.8 45.72 0)
 			(effects
 				(font
@@ -11886,7 +11878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://file.elecfans.com/web1/M00/E3/09/pIYBAGA9oh2AKdGOAADTdMrhbWg903.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2685092.pdf"
 			(at 50.8 45.72 0)
 			(effects
 				(font
@@ -12149,7 +12141,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:DRV8835DSSR")
+		(lib_id "iaracershield:DRV8835DSSR")
 		(at 123.19 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12174,7 +12166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "fredo:DSS0012A"
+		(property "Footprint" "iaracershield:DSS0012A"
 			(at 123.19 114.3 0)
 			(effects
 				(font
@@ -12184,7 +12176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://file.elecfans.com/web1/M00/BA/8D/o4YBAF6ek_KALlbuABSmp18iYnI036.pdf?filename=DRV8835DSSR.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8835.pdf"
 			(at 123.19 114.3 0)
 			(effects
 				(font
@@ -12194,7 +12186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Low voltage motor driver"
 			(at 123.19 114.3 0)
 			(effects
 				(font
@@ -12503,7 +12495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_")
+		(lib_id "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 212.09 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12513,7 +12505,7 @@
 		(fields_autoplaced yes)
 		(uuid "c29ebfcf-72bf-433e-a1a3-db6043f5555c")
 		(property "Reference" "UART1"
-			(at 208.28 41.275 0)
+			(at 208.28 40.64 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -12522,7 +12514,7 @@
 			)
 		)
 		(property "Value" "Grove"
-			(at 208.28 43.1799 0)
+			(at 208.28 43.18 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -12530,7 +12522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+		(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 			(at 212.09 41.91 0)
 			(effects
 				(font
@@ -12548,7 +12540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "seeed connector"
 			(at 212.09 41.91 0)
 			(effects
 				(font
@@ -12745,7 +12737,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_")
+		(lib_id "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 212.09 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12771,7 +12763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+		(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 			(at 212.09 77.47 0)
 			(effects
 				(font
@@ -12789,7 +12781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "seeed connector"
 			(at 212.09 77.47 0)
 			(effects
 				(font
@@ -12853,7 +12845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_")
+		(lib_id "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 255.27 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12863,7 +12855,7 @@
 		(fields_autoplaced yes)
 		(uuid "d173e5af-592f-4611-91b6-dd758e713eea")
 		(property "Reference" "A2"
-			(at 251.46 94.615 0)
+			(at 251.46 93.98 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -12872,7 +12864,7 @@
 			)
 		)
 		(property "Value" "Grove"
-			(at 251.46 96.5199 0)
+			(at 251.46 96.52 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -12880,7 +12872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+		(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 			(at 255.27 95.25 0)
 			(effects
 				(font
@@ -12898,7 +12890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "seeed connector"
 			(at 255.27 95.25 0)
 			(effects
 				(font
@@ -12962,7 +12954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:JST-B2B-PH-SM4-TB")
+		(lib_id "iaracershield:JST-B2B-PH-SM4-TB")
 		(at 168.91 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12988,7 +12980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+		(property "Footprint" "iaracershield:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 168.91 101.6 0)
 			(effects
 				(font
@@ -13061,7 +13053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:GROVE-CONNECTOR-SMD_4+2P-2.0_")
+		(lib_id "iaracershield:GROVE-CONNECTOR-SMD_4+2P-2.0_")
 		(at 212.09 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13087,7 +13079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:GROVE-HW4-SMD-2.0"
+		(property "Footprint" "iaracershield:GROVE-HW4-SMD-2.0"
 			(at 212.09 59.69 0)
 			(effects
 				(font
@@ -13105,7 +13097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "seeed connector"
 			(at 212.09 59.69 0)
 			(effects
 				(font
@@ -13301,7 +13293,7 @@
 		)
 	)
 	(symbol
-		(lib_id "fredo:JST-B2B-PH-SM4-TB")
+		(lib_id "iaracershield:JST-B2B-PH-SM4-TB")
 		(at 34.29 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13327,7 +13319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "fredo:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
+		(property "Footprint" "iaracershield:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 34.29 142.24 0)
 			(effects
 				(font
