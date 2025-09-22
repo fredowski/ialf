@@ -1,2 +1,10 @@
 .DS_store
 
+# Local project settings
+*.kicad_prl
+
+# Temporary files
+*-backups
+*.bak
+fp-info-cache
+
